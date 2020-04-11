@@ -1,13 +1,60 @@
 <template>
-    <h2>个人</h2>
+  <Scroll class="content" ref="scroll">
+    <ul>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>2</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+      <li>33</li>
+    </ul>
+  </Scroll>
 </template>
 
 <script>
-    export default {
-        name: "Profile"
-    }
+  import Scroll from '../../components/common/scroll/Scroll'
+
+  export default {
+    name: "Profile",
+    components: {Scroll},
+    Scroll
+  }
 </script>
 
 <style scoped>
-
+  .content {
+    height: 300px;
+    overflow: hidden;
+    background-color: red;
+  }
 </style>
